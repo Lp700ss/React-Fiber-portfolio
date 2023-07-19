@@ -42,7 +42,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend React Developer",
     icon: web,
   },
   {
@@ -50,7 +50,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Node/Express Backend Developer",
     icon: backend,
   },
   {
@@ -234,7 +234,7 @@ const projects = [
       "An UberEats clone built with Next.js is a web application that replicates the core functionalities and features of the UberEats platform",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
@@ -245,30 +245,46 @@ const projects = [
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://delicate-llama-40f5ef.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "NFT marketplace",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "NFT marketplace, built on the Solana blockchain, leverages the speed and scalability of Solana to offer seamless and efficient NFT trading. The tech stack comprises React.js for the frontend, enabling a user-friendly and intuitive interface. For blockchain integration, we utilize Web3.js, enabling users to interact securely with their wallets and perform NFT transactions directly from the platform. With Solana's fast transaction processing and low fees, our NFT marketplace ensures a smooth and cost-effective experience .",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "web3.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Lp700ss/OpenOcean-nftmarket",
   },
 ];
 
